@@ -1,0 +1,379 @@
+
+h1 {
+	color: rgb(250, 250, 250); 
+	background-color: rgb(200, 200, 200);
+	border-radius: 15px 50px 30px;
+    background: #8AC007;
+    padding: 25px; 
+    width: 200px;
+    height: 80px;
+    font-family: Arial;
+    position: absolute;
+    top: 600px;
+}	
+
+#resetgame {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    font-size: 18pt;
+    font-family: arial;
+    border-radius: 25px;
+    opacity: 0;
+    background-color: yellow;
+    padding: 20px;
+    z-index: 155;
+
+}
+
+
+#answerRack0 {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    font-size: 25pt
+}
+
+#answerRack1 {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    font-size: 25pt
+}
+
+#answerRack2 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 25pt
+}
+
+#answerRack3 {
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    font-size: 25pt
+}
+
+#answerRack4 {
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    font-size: 25pt
+}
+
+#answerRack5 {
+    position: absolute;
+    top: 200px;
+    left: 220px;
+    font-size: 25pt
+}
+
+#answerRack6 {
+    position: absolute;
+    top: 200px;
+    left: 260px;
+    font-size: 25pt
+}
+
+#answerRack7 {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    font-size: 25pt
+}
+
+#lives1 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 30pt;
+    color: blue;
+    font-family: Palatino Linotype;
+
+}
+
+#lives {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 30pt;
+    color: blue;
+    font-family: Palatino Linotype;
+    /*z-index: 10;*/
+}
+
+#bg1 {
+    position: absolute;
+    background-color: rgba(255, 200, 205, 1);
+    width: 500px;
+    height: 500px;
+    top: 10px;
+    /*pointer-events: none;*/
+}
+
+.buttonClass {
+    background-color: rgb(210, 240, 210);
+    /*position: absolute;*/
+    font-size: 24pt;
+    width: 50px;
+    z-index: 100;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-family: Lucida Sans Unicode;
+    opacity: 0;
+}
+
+#buttonContainer {
+    position: relative;
+    background-color: rgb(210, 190, 200);
+    top: 500px;
+    width: 400px;
+}
+
+#congratulationScreen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /*background-color: orange;*/
+    z-index: 150;
+    display: none;
+    overflow: hidden;
+}
+
+#failureScreen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /*background-color: orange;*/
+    z-index: 150;
+    display: none;
+    overflow: hidden;
+}
+
+
+#balloons {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 200%;
+    /*left : 100px;*/
+    left : 10%;
+    background-image: url(assets/jim1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*background-color: red;*/
+    -webkit-transition: top 2s; /* Safari */
+    transition: top 2s;
+}
+
+#thumbsDown {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 200%;
+    /*left : 100px;*/
+    left : 10%;
+    background-image: url(assets/ceasar.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*background-color: red;*/
+    -webkit-transition: top 2s; /* Safari */
+    transition: top 2s;
+}
+
+#wrongguessrack {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 460px;
+    left: 10%;
+    background-color: rgb(190, 220, 230);
+    color: black;
+    /*text-decoration: line-through;*/
+    font-size: 20pt;
+    font-family: arial;
+    z-index: 120;
+}
+
+#wrongguesses {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(190, 220, 230)
+    color: black;
+    /*text-decoration: line-through;*/
+    font-size: 20pt;
+    font-family: arial;
+    z-index: 120;
+}
+
+#bigredx {
+    position: absolute;
+    background-size: 100% 100%;
+    background-image: url(assets/big_red_x.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: 121;
+    opacity: 0.6;
+
+}
+
+#therack {
+    position: absolute;
+    width: 400px; 
+    height: 400px;
+    top: 10%;
+    left: 50%;
+
+}
+
+#condemned0 {
+    position: absolute;
+    background-image: url(assets/stand_base.png);
+    width: 264px;
+    height: 34px;
+    top: 325px;
+    left: 200%;
+    z-index: 180;
+    background-repeat: no-repeat;
+    -webkit-transition: left 0.5s; /* Safari */
+    transition: left 0.5s;
+}
+
+#condemned1 {
+    position: absolute;
+    background-image: url(assets/frame_stand.png);
+    width: 48px;
+    height: 297px;
+    top: -100%;
+    left: 15%;
+    z-index: 181;
+    background-repeat: no-repeat;
+    -webkit-transition: left 2s; /* Safari */
+    transition: left 2s;
+}
+
+#condemned2 {
+    position: absolute;
+    background-image: url(assets/frame_top.png);
+    width: 103px;
+    height: 20px;
+    top: 12.2%;
+    left: 100%;
+    z-index: 182;
+    background-repeat: no-repeat;
+    -webkit-transition: left 1s; /* Safari */
+    transition: left 1s;
+}
+
+#condemned3 {
+    position: absolute;
+    background-image: url(assets/rope.png);
+    width: 34px;
+    height: 73px;
+    top: 12.2%;
+    left: 100%;
+    z-index: 182;
+    background-repeat: no-repeat;
+    -webkit-transition: left 0.5s; /* Safari */
+    transition: left 0.5s;
+}
+
+#condemned4 {
+    position: absolute;
+    background-image: url(assets/head.png);
+    background-size: contain;
+    width: 60px;
+    height: 49px;
+    top: 28.5%;
+    left: 100%;
+    z-index: 182;
+    background-repeat: no-repeat;
+    -webkit-transition: left 1s; /* Safari */
+    transition: left 1s;
+}
+
+#condemned5 {
+    position: relative;
+    background-image: url(assets/body.png);
+    background-size: contain;
+    height: 70px;
+    top: 39.8%;
+    left: 100%;
+    z-index: 182;
+    background-repeat: no-repeat;
+    -webkit-transition: left 1s; /* Safari */
+    transition: left 1s;
+}
+
+#condemned6 {
+    position: relative;
+    background-image: url(assets/arm_left.png);
+    background-size: contain;
+    height: 30px;
+    top: 22%;
+    left: 100%;
+    z-index: 182;
+    background-repeat: no-repeat;
+    -webkit-transition: left 1s; /* Safari */
+    transition: left 1s;
+}
+
+#condemned7 {
+    position: relative;
+    background-image: url(assets/arm_right.png);
+    background-size: contain;
+    height: 35px;
+    top: 9.5%;
+    left: 100%;
+    z-index: 182;
+    background-repeat: no-repeat;
+    -webkit-transition: left 1s; /* Safari */
+    transition: left 1s;
+}
+
+#condemned8 {
+    position: relative;
+    background-image: url(assets/leg_right.png);
+    background-size: contain;
+    height: 50px;
+    top: 90px;
+    left: 100%;
+    z-index: 182;
+    background-repeat: no-repeat;
+    -webkit-transition: left 1s; /* Safari */
+    transition: left 1s;
+}
+
+#condemned9 {
+    position: relative;
+    background-image: url(assets/leg_left.png);
+    background-size: contain;
+    height: 90px;
+    top: 11.2%;
+    left: 100%;
+    z-index: 182;
+    background-repeat: no-repeat;
+    -webkit-transition: left 1s; /* Safari */
+    transition: left 1s;
+}
+
+#cover {
+    position: absolute;
+    background-color: white;
+    height: 1000px;
+    width: 1000px;
+    top: 0px;
+    left: 1000px;
+    z-index: 200;
+
+}
