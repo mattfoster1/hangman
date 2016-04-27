@@ -241,7 +241,7 @@ html, body {
     width: 400px; 
     height: 400px;
     top: 10%;
-    left: 50%;
+    left: 5%;
 
     background-color: orange;
 }
@@ -253,6 +253,7 @@ html, body {
     background-repeat: no-repeat;
     -webkit-transition: all 0.5s; /* Safari */
     transition: all 0.5s;
+    background-size: contain;
 }
 
 #condemned0 {
@@ -298,6 +299,7 @@ html, body {
 #condemned5 {
     background-image: url(assets/body.png);
     height: 70px;
+    width: 100px;
     top: 39.8%;
     left: 100%;
 }
