@@ -287,52 +287,103 @@ var theHangedMan = function() {
 	var condemnedJs = document.getElementById("condemned" + drawNumber);
 	
 	if (drawNumber === 0){
-		condemnedJs.style.left = "0%";
+
+		condemnedJs.style.display = "block";
+		condemnedJs.style.position = "relative";
+		condemnedJs.style.left = "0px";
+		condemnedJs.style.top = "325px";
+		condemnedJs.style.opacity = "1";
+
 		console.log("base");
 	}
 
 	if (drawNumber === 1){
-		condemnedJs.style.top = "12%";
+		condemnedJs.style.display = "block";
+		condemnedJs.style.position = "relative";
+		condemnedJs.style.left = "0px";
+		condemnedJs.style.top = "19px";
+		condemnedJs.style.opacity = "1";
+
 		console.log("stand");
 	}
 	
 	if (drawNumber === 2){
-		condemnedJs.style.left = "17%";
+		condemnedJs.style.display = "block";
+		condemnedJs.style.position = "relative";
+		condemnedJs.style.left = "17px";
+		condemnedJs.style.top = "-280px";
+		condemnedJs.style.opacity = "1";
+
 		console.log("stand_top");
 	}
 	
 	if (drawNumber === 3){
-		condemnedJs.style.left = "38.5%";
+		condemnedJs.style.display = "block";
+		condemnedJs.style.position = "relative";
+		condemnedJs.style.left = "105px";
+		condemnedJs.style.top = "-300px";
+		condemnedJs.style.opacity = "1";
+
 		console.log("stand_top");
 	}	
 	
 	if (drawNumber === 4){
-		condemnedJs.style.left = "35%";
+		condemnedJs.style.display = "block";
+		condemnedJs.style.position = "relative";
+		condemnedJs.style.left = "0px";
+		condemnedJs.style.top = "325px";
+		condemnedJs.style.opacity = "1";
+
 		console.log("stand_top");
 	}
 
 	if (drawNumber === 5){
-		condemnedJs.style.left = "44%";
+		condemnedJs.style.display = "block";
+		condemnedJs.style.position = "relative";
+		condemnedJs.style.left = "0px";
+		condemnedJs.style.top = "325px";
+		condemnedJs.style.opacity = "1";
+
 		console.log("stand_top");
 	}
 
 	if (drawNumber === 6){
-		condemnedJs.style.left = "29%";
+		condemnedJs.style.display = "block";
+		condemnedJs.style.position = "relative";
+		condemnedJs.style.left = "0px";
+		condemnedJs.style.top = "325px";
+		condemnedJs.style.opacity = "1";
+
 		console.log("stand_top");
 	}	
 	
 	if (drawNumber === 7){
-		condemnedJs.style.left = "47%";
+		condemnedJs.style.display = "block";
+		condemnedJs.style.position = "relative";
+		condemnedJs.style.left = "0px";
+		condemnedJs.style.top = "325px";
+		condemnedJs.style.opacity = "1";
+
 		console.log("stand_top");
 	}
 
 	if (drawNumber === 8){
-		condemnedJs.style.left = "54%";
+		condemnedJs.style.display = "block";
+		condemnedJs.style.position = "relative";
+		condemnedJs.style.left = "0px";
+		condemnedJs.style.top = "325px";
+		condemnedJs.style.opacity = "1";
+
 		console.log("stand_top");
 	}
 
 	if (drawNumber === 9){
-		condemnedJs.style.left = "49%";
+		condemnedJs.style.display = "block";
+		condemnedJs.style.position = "relative";
+		condemnedJs.style.left = "0px";
+		condemnedJs.style.top = "325px";
+		condemnedJs.style.opacity = "1";
+
 		console.log("stand_top");
 	}
 
