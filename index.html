@@ -9,47 +9,65 @@
 
 	<body onload="start()">
 		 <!-- <h1 id = "header"></h1> -->
+		 <!-- <img src="assets/bin.png" id="bin"> -->
+		
 
-		<div id="gameboard">	
+
+		 <div id="WGR_wrap">
+			<div style="background-image: url('assets/bin.png')" id="wrongguessrack">
+				<div id = "wrongguesses"></div>
+			</div>
+
+			<div id="lifeCntr">
+				<div id = "lives1" class="lifeTxt">Lives remaining = </div>
+				<div id = "lives" class="lifeTxt">10</div>
+			</div>
+		</div>
+		<div id="gameboard">
+
+				<div id = "gallows">
+					<div id = "condemned0" class="condemned"></div>
+					<div id = "condemned1" class="condemned"></div>
+					<div id = "condemned2" class="condemned"></div>
+					<div id = "condemned3" class="condemned"></div>
+					<div id = "condemned4" class="condemned"></div>
+					<div id = "condemned5" class="condemned"></div>
+					<div id = "condemned6" class="condemned"></div>
+					<div id = "condemned7" class="condemned"></div>
+					<div id = "condemned8" class="condemned"></div>
+					<div id = "condemned9" class="condemned"></div>
+
+					<div id="answerRack">
+						<div id = "answerRack0" >
+							<p>_</p>
+						</div>
+						<div id = "answerRack1" class="AR">
+							<p>_</p>
+						</div>
+						<div id = "answerRack2" class="AR">
+							<p>_</p>
+						</div>
+						<div id = "answerRack3" class="AR">
+							<p>_</p>
+						</div>
+						<div id = "answerRack4" class="AR">
+							<p>_</p>
+						</div>
+						<div id = "answerRack5" class="AR">
+							<p>_</p>
+						</div>
+						<div id = "answerRack6" class="AR"> 
+							<p>_</p>
+						</div>
+						<div id = "answerRack7" class="AR">
+							<p>_</p>
+						</div>
+				</div>
 				
-			<div id = "bg1">
-
-				<div id="answerRack">
-					<div id = "answerRack0" >
-						<p class="AR">_</p>
-					</div>
-
-					<div id = "answerRack1" class="AR">
-						<p>_</p>
-					</div>
-
-					<div id = "answerRack2" class="AR">
-						<p>_</p>
-					</div>
-
-					<div id = "answerRack3" class="AR">
-						<p>_</p>
-					</div>
-
-					<div id = "answerRack4" class="AR">
-						<p>_</p>
-					</div>
-
-					<div id = "answerRack5" class="AR">
-						<p>_</p>
-					</div>
-
-					<div id = "answerRack6" class="AR"> 
-						<p>_</p>
-					</div>
-
-					<div id = "answerRack7" class="AR">
-						<p>_</p>
-					</div>
 				</div>
 
 
-			</div>
+			<!-- <div id = "bg1"></div> -->
 
 			<!-- <input type="text" placeholder="What letter would you like to enter?"> -->
 
@@ -86,24 +104,7 @@
 			</div>
 
 			<button id = "resetgame" onclick="resetButton();">"Play a new <br> game"</button>
-
-
-
 		</div>
-
-
-
-
-
-
-
-	<div id = "lives1">
-		Lives = 
-	</div>
-
-	<div id = "lives">
-		10
-	</div>
 
 	<div id = "congratulationScreen">
 		<div id = "balloons"></div> 
@@ -113,27 +114,7 @@
 		<div id = "thumbsDown"></div> 
 	</div>
 
-
-	<div id = "wrongguessrack">
-		<div id = "wrongguesses"></div>
-		<div id = "bigredx"></div> 
-	</div> 
-
-
-	<div id = "therack">
-		<div id = "condemned0" class="condemned"></div>
-		<div id = "condemned1" class="condemned"></div>
-		<div id = "condemned2" class="condemned"></div>
-		<div id = "condemned3" class="condemned"></div>
-		<div id = "condemned4" class="condemned"></div>
-		<div id = "condemned5" class="condemned"></div>
-		<div id = "condemned6" class="condemned"></div>
-		<div id = "condemned7" class="condemned"></div>
-		<div id = "condemned8" class="condemned"></div>
-		<div id = "condemned9" class="condemned"></div>
-	</div>
-
-	<div id="cover"></div>
+	<!-- <div id="cover"></div> -->
 
 	</body>
 

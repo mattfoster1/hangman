@@ -289,7 +289,7 @@ var theHangedMan = function() {
 	if (drawNumber === 0){
 
 		condemnedJs.style.display = "block";
-		condemnedJs.style.position = "relative";
+		// condemnedJs.style.position = "relative";
 		condemnedJs.style.left = "0px";
 		condemnedJs.style.top = "325px";
 		condemnedJs.style.opacity = "1";
@@ -299,9 +299,9 @@ var theHangedMan = function() {
 
 	if (drawNumber === 1){
 		condemnedJs.style.display = "block";
-		condemnedJs.style.position = "relative";
+		// condemnedJs.style.position = "relative";
 		condemnedJs.style.left = "0px";
-		condemnedJs.style.top = "19px";
+		condemnedJs.style.top = "50px";
 		condemnedJs.style.opacity = "1";
 
 		console.log("stand");
@@ -309,9 +309,9 @@ var theHangedMan = function() {
 	
 	if (drawNumber === 2){
 		condemnedJs.style.display = "block";
-		condemnedJs.style.position = "relative";
+		// condemnedJs.style.position = "relative";
 		condemnedJs.style.left = "17px";
-		condemnedJs.style.top = "-280px";
+		condemnedJs.style.top = "40px";
 		condemnedJs.style.opacity = "1";
 
 		console.log("stand_top");
@@ -319,9 +319,9 @@ var theHangedMan = function() {
 	
 	if (drawNumber === 3){
 		condemnedJs.style.display = "block";
-		condemnedJs.style.position = "relative";
+		// condemnedJs.style.position = "relative";
 		condemnedJs.style.left = "105px";
-		condemnedJs.style.top = "-300px";
+		condemnedJs.style.top = "39px";
 		condemnedJs.style.opacity = "1";
 
 		console.log("stand_top");
@@ -329,9 +329,9 @@ var theHangedMan = function() {
 	
 	if (drawNumber === 4){
 		condemnedJs.style.display = "block";
-		condemnedJs.style.position = "relative";
+		// condemnedJs.style.position = "relative";
 		condemnedJs.style.left = "90px";
-		condemnedJs.style.top = "-310px";
+		condemnedJs.style.top = "104px";
 		condemnedJs.style.opacity = "1";
 
 		console.log("stand_top");
@@ -339,9 +339,9 @@ var theHangedMan = function() {
 
 	if (drawNumber === 5){
 		condemnedJs.style.display = "block";
-		condemnedJs.style.position = "relative";
+		// condemnedJs.style.position = "relative";
 		condemnedJs.style.left = "125px";
-		condemnedJs.style.top = "-316px";
+		condemnedJs.style.top = "50px";
 		condemnedJs.style.opacity = "1";
 
 		console.log("stand_top");
@@ -349,9 +349,9 @@ var theHangedMan = function() {
 
 	if (drawNumber === 6){
 		condemnedJs.style.display = "block";
-		condemnedJs.style.position = "relative";
+		// condemnedJs.style.position = "relative";
 		condemnedJs.style.left = "68px";
-		condemnedJs.style.top = "-380px";
+		condemnedJs.style.top = "120px";
 		condemnedJs.style.opacity = "1";
 
 		console.log("stand_top");
@@ -359,7 +359,7 @@ var theHangedMan = function() {
 	
 	if (drawNumber === 7){
 		condemnedJs.style.display = "block";
-		condemnedJs.style.position = "relative";
+		// condemnedJs.style.position = "relative";
 		condemnedJs.style.left = "138px";
 		condemnedJs.style.top = "-430px";
 		condemnedJs.style.opacity = "1";
@@ -369,7 +369,7 @@ var theHangedMan = function() {
 
 	if (drawNumber === 8){
 		condemnedJs.style.display = "block";
-		condemnedJs.style.position = "relative";
+		// condemnedJs.style.position = "relative";
 		condemnedJs.style.left = "167px";
 		condemnedJs.style.top = "-384px";
 		condemnedJs.style.opacity = "1";
@@ -379,7 +379,7 @@ var theHangedMan = function() {
 
 	if (drawNumber === 9){
 		condemnedJs.style.display = "block";
-		condemnedJs.style.position = "relative";
+		// condemnedJs.style.position = "relative";
 		condemnedJs.style.left = "150px";
 		condemnedJs.style.top = "-430px";
 		condemnedJs.style.opacity = "1";
