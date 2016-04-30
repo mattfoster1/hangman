@@ -5,6 +5,7 @@ div {
     display: -webkit-flex;
     display: flex;
 
+    font-family: ASO-r;
     /*background-color: white !important;*/
 }
 
@@ -368,7 +369,7 @@ html, body {
 #condemned6 {
     background-image: url(assets/arm_left.png);
     height: 30px;
-    width: auto;
+    width: 68px;
     top: 22%;
     left: 100%;
 }
@@ -376,6 +377,7 @@ html, body {
 #condemned7 {
     background-image: url(assets/arm_right.png);
     height: 35px;
+    width: 65px;
     top: 9.5%;
     left: 100%;
 }
@@ -383,6 +385,7 @@ html, body {
 #condemned8 {
     background-image: url(assets/leg_right.png);
     height: 50px;
+    width: 79px;
     top: 90px;
     left: 100%;
 }
@@ -390,6 +393,7 @@ html, body {
 #condemned9 {
     background-image: url(assets/leg_left.png);
     height: 90px;
+    width: 39px;
     top: 11.2%;
     left: 100%;
 }
