@@ -23,6 +23,8 @@ h1 {
     opacity: 0;
 }
 
+@font-face {font-family: bebas; src: url('fonts/fonts/bebasneue.otf');}
+
 html, body {
     /*background-color: rgb(18,15,24);*/
     display: -webkit-box;
@@ -48,9 +50,9 @@ html, body {
     flex-direction: column;
     order: 3;
 
-    width: 60%;
+    width: 90%;
     height: 95%;
-    margin-left: 5%;
+    /*padding-left: 5%;*/
 
 /*    border-width: 1px;
     border-style: solid;
@@ -140,14 +142,18 @@ html, body {
 
 .buttonClass {
     background-color: #bdbdbd;
-    font-size: 200%;
+    font-size: 80px;
     width: 9%;
     min-width: 50px;
     z-index: 100;
     border-radius: 5px;
     padding: 3px;
-    margin: 12px 8px 1px 1px;
+    margin: 2px 12px;
     color: rgb(142,130,168);
+
+    font-family: bebas;
+
+    text-shadow: 2px 2px 1px darkgray;
 
     align-content: center;
     justify-content: center;
@@ -155,14 +161,14 @@ html, body {
 
 #buttonContainer {
     /*background-color: white;*/
-    width: 90%;
+    width: 100%;
     min-width: 480px;
     padding: 2%;
 
     order: 2;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
     align-self: center;
 /*    border-width: 1px;
     border-style: solid;
@@ -237,7 +243,7 @@ html, body {
 }
 
 #WGR_wrap {
-    position: relative;
+    position: absolute;
     top: 5px;
     right: 0.5%;
     width: 25%;
@@ -316,7 +322,7 @@ html, body {
     position: relative;
     width: 400px; 
     height: 500px;
-    left: 5%;
+    left: 10%;
 /*    border-width: 1px;
     border-style: solid;
     border-color: black;*/
@@ -416,4 +422,71 @@ html, body {
     position: relative;
     height: 200px;
     background-size: contain;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 801px) and (min-height: 1000px) and (orientation: portrait) {
+    #WGR_wrap {
+        position: absolute;
+    }
+
+    #gameboard {
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    #buttonContainer {
+        width: 100%;
+        height: auto;
+        padding: 0;
+
+    }
+    .buttonClass {
+        height: 150px;
+        border-radius: 20px 20px 20px 20px;
+        padding-top: 8px;
+        font-size: 120px;
+        margin: 10px;
+        width: 14%;
+        box-shadow: 5px 5px 15px darkgray;
+        text-shadow: 5px 5px 5px darkgray;
+    }
+
+    #WGR_wrap {
+        /*width: 100%*/
+        height: 37%;
+        width: 45%;
+    }
+
+    #lifeCntr {
+        font-size: 30px;
+        flex-direction: column;
+        /*justify-content: space-between;*/
+        font-size: 45px;
+        white-space: nowrap;
+        height: 80px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    #lives1 {
+        letter-spacing: 2px;
+    }
+
+    #lives {
+        margin-top: 40px;
+        font-size: 75px;
+    }
+
+    #wrongguessrack {
+        height: 100%;
+        width: 100%;
+        background-size: 150%;   
+    }
+
+    #wrongguesses {
+        width: 60%;
+        height: 55%;
+        font-size: 80px;
+    }
 }
