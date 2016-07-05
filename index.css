@@ -109,7 +109,8 @@ html {
     font-family: what-r !important;
 
     position: absolute;
-    bottom: 10px;
+    bottom: 40px;
+    left: 90%;
 
     padding: 0px 30px;
     height: 100px;
@@ -125,7 +126,6 @@ html {
     border-width: 1px;
     border-style: solid;
     border-color: black;
-
 }
 
 .AR {}
@@ -339,6 +339,7 @@ html {
     width: 400px; 
     height: 500px;
     left: 10%;
+    top: 60px;
 /*    border-width: 1px;
     border-style: solid;
     border-color: black;*/
@@ -504,5 +505,21 @@ html {
         width: 60%;
         height: 55%;
         font-size: 80px;
+    }
+}
+
+@media screen and (max-height: 780px) {
+    
+    #buttonContainer {
+        transform: scale(0.8,0.8);
+        padding: 0;
+    }
+
+    #buttonContainer {
+        width: 120%;
+    }
+
+    #answerRack {
+        bottom: -25px;
     }
 }
