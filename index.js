@@ -315,13 +315,14 @@ var incorrectGuessesRack = function() {
 };
 
 var succesfulGuess = function(allDataFromHTML) {
-allDataFromHTML.style.backgroundColor = "#63FF20";
-allDataFromHTML.style.color = "black";
+	// allDataFromHTML.style.backgroundColor = "#63FF20";
+	allDataFromHTML.className += " strong";
 };
 
 var unSuccesfulGuess = function(allDataFromHTML) {
-	allDataFromHTML.style.backgroundColor = "red";
-	allDataFromHTML.style.color = "#7F0000";
+	// allDataFromHTML.style.backgroundColor = "lightgray";
+	// allDataFromHTML.style.color = "gray";
+	allDataFromHTML.className += " fade";
 };
 
 // To do:

@@ -11,93 +11,86 @@
 	</head>
 
 	<body onload="start()">
-		 <!-- <h1 id = "header"></h1> -->
-		 <!-- <img src="assets/bin.png" id="bin"> -->
-		
-
-
 		 <div id="WGR_wrap">
-			<div style="background-image: url('assets/bin.png')" id="wrongguessrack">
-				<div id = "wrongguesses"></div>
+			<div id="wrongguessrack">
+				<div id="wrongguesses"></div>
 			</div>
 
 			<div id="lifeCntr">
-				<div id = "lives1" class="lifeTxt">Lives remaining: </div>
-				<div id = "lives" class="lifeTxt">10</div>
+				<!-- <div id="lives1" class="lifeTxt">Lives remaining: </div> -->
+				<div id="lives" class="lifeTxt">10</div>
 			</div>
 		</div>
 
-		<div id="gameboard">
-
-				<div id = "gallows">
-					<div id = "condemned0" class="condemned"></div>
-					<div id = "condemned1" class="condemned"></div>
-					<div id = "condemned2" class="condemned"></div>
-					<div id = "condemned3" class="condemned"></div>
-					<div id = "condemned4" class="condemned"></div>
-					<div id = "condemned5" class="condemned"></div>
-					<div id = "condemned6" class="condemned"></div>
-					<div id = "condemned7" class="condemned"></div>
-					<div id = "condemned8" class="condemned"></div>
-					<div id = "condemned9" class="condemned"></div>
+		<div class="gallowsCont">
+				<div id="gallows">
+					<div id="condemned0" class="condemned"></div>
+					<div id="condemned1" class="condemned"></div>
+					<div id="condemned2" class="condemned"></div>
+					<div id="condemned3" class="condemned"></div>
+					<div id="condemned4" class="condemned"></div>
+					<div id="condemned5" class="condemned"></div>
+					<div id="condemned6" class="condemned"></div>
+					<div id="condemned7" class="condemned"></div>
+					<div id="condemned8" class="condemned"></div>
+					<div id="condemned9" class="condemned"></div>
 
 					<div id="answerRack">
-						<div id = "answerRack0" >
+						<div id="answerRack0" >
 							<p>_</p>
 						</div>
-						<div id = "answerRack1" class="AR">
+						<div id="answerRack1" class="AR">
 							<p>_</p>
 						</div>
-						<div id = "answerRack2" class="AR">
+						<div id="answerRack2" class="AR">
 							<p>_</p>
 						</div>
-						<div id = "answerRack3" class="AR">
+						<div id="answerRack3" class="AR">
 							<p>_</p>
 						</div>
-						<div id = "answerRack4" class="AR">
+						<div id="answerRack4" class="AR">
 							<p>_</p>
 						</div>
-						<div id = "answerRack5" class="AR">
+						<div id="answerRack5" class="AR">
 							<p>_</p>
 						</div>
-						<div id = "answerRack6" class="AR"> 
+						<div id="answerRack6" class="AR"> 
 							<p>_</p>
 						</div>
-						<div id = "answerRack7" class="AR">
+						<div id="answerRack7" class="AR">
 							<p>_</p>
 						</div>
-				</div>
-				
+					</div> <!-- end of answerRack -->
 				</div>
 		</div> <!-- end of gameboard -->
 
-		<div id= "buttonContainer">
-			<button id = "letter0" class = "buttonClass" onclick="buttonClicked(this)">a</button>
-			<button id = "letter1" class = "buttonClass" onclick="buttonClicked(this)">b</button>
-			<button id = "letter2" class = "buttonClass" onclick="buttonClicked(this)">c</button>
-			<button id = "letter3" class = "buttonClass" onclick="buttonClicked(this)">d</button>
-			<button id = "letter4" class = "buttonClass" onclick="buttonClicked(this)">e</button>
-			<button id = "letter5" class = "buttonClass" onclick="buttonClicked(this)">f</button>
-			<button id = "letter6" class = "buttonClass" onclick="buttonClicked(this)">g</button>
-			<button id = "letter7" class = "buttonClass" onclick="buttonClicked(this)">h</button>
-			<button id = "letter8" class = "buttonClass" onclick="buttonClicked(this)">i</button>
-			<button id = "letter9" class = "buttonClass" onclick="buttonClicked(this)">j</button>
-			<button id = "letter10" class = "buttonClass" onclick="buttonClicked(this)">k</button>
-			<button id = "letter11" class = "buttonClass" onclick="buttonClicked(this)">l</button>
-			<button id = "letter12" class = "buttonClass" onclick="buttonClicked(this)">m</button>
-			<button id = "letter13" class = "buttonClass" onclick="buttonClicked(this)">n</button>
-			<button id = "letter14" class = "buttonClass" onclick="buttonClicked(this)">o</button>
-			<button id = "letter15" class = "buttonClass" onclick="buttonClicked(this)">p</button>
-			<button id = "letter16" class = "buttonClass" onclick="buttonClicked(this)">q</button>
-			<button id = "letter17" class = "buttonClass" onclick="buttonClicked(this)">r</button>
-			<button id = "letter18" class = "buttonClass" onclick="buttonClicked(this)">s</button>
-			<button id = "letter19" class = "buttonClass" onclick="buttonClicked(this)">t</button>
-			<button id = "letter20" class = "buttonClass" onclick="buttonClicked(this)">u</button>
-			<button id = "letter21" class = "buttonClass" onclick="buttonClicked(this)">v</button>
-			<button id = "letter22" class = "buttonClass" onclick="buttonClicked(this)">w</button>
-			<button id = "letter23" class = "buttonClass" onclick="buttonClicked(this)">x</button>
-			<button id = "letter24" class = "buttonClass" onclick="buttonClicked(this)">y</button>
-			<button id = "letter25" class = "buttonClass" onclick="buttonClicked(this)">z</button>
+		<div id="buttonContainer">
+			<button id="letter0" class="buttonClass" onclick="buttonClicked(this)">a</button>
+			<button id="letter1" class="buttonClass" onclick="buttonClicked(this)">b</button>
+			<button id="letter2" class="buttonClass" onclick="buttonClicked(this)">c</button>
+			<button id="letter3" class="buttonClass" onclick="buttonClicked(this)">d</button>
+			<button id="letter4" class="buttonClass" onclick="buttonClicked(this)">e</button>
+			<button id="letter5" class="buttonClass" onclick="buttonClicked(this)">f</button>
+			<button id="letter6" class="buttonClass" onclick="buttonClicked(this)">g</button>
+			<button id="letter7" class="buttonClass" onclick="buttonClicked(this)">h</button>
+			<button id="letter8" class="buttonClass" onclick="buttonClicked(this)">i</button>
+			<button id="letter9" class="buttonClass" onclick="buttonClicked(this)">j</button>
+			<button id="letter10" class="buttonClass" onclick="buttonClicked(this)">k</button>
+			<button id="letter11" class="buttonClass" onclick="buttonClicked(this)">l</button>
+			<button id="letter12" class="buttonClass" onclick="buttonClicked(this)">m</button>
+			<button id="letter13" class="buttonClass" onclick="buttonClicked(this)">n</button>
+			<button id="letter14" class="buttonClass" onclick="buttonClicked(this)">o</button>
+			<button id="letter15" class="buttonClass" onclick="buttonClicked(this)">p</button>
+			<button id="letter16" class="buttonClass" onclick="buttonClicked(this)">q</button>
+			<button id="letter17" class="buttonClass" onclick="buttonClicked(this)">r</button>
+			<button id="letter18" class="buttonClass" onclick="buttonClicked(this)">s</button>
+			<button id="letter19" class="buttonClass" onclick="buttonClicked(this)">t</button>
+			<button id="letter20" class="buttonClass" onclick="buttonClicked(this)">u</button>
+			<button id="letter21" class="buttonClass" onclick="buttonClicked(this)">v</button>
+			<button id="letter22" class="buttonClass" onclick="buttonClicked(this)">w</button>
+			<button id="letter23" class="buttonClass" onclick="buttonClicked(this)">x</button>
+			<button id="letter24" class="buttonClass" onclick="buttonClicked(this)">y</button>
+			<button id="letter25" class="buttonClass" onclick="buttonClicked(this)">z</button>
 		</div>
 	
 	<div id="resetBgr">
@@ -106,12 +99,12 @@
 		</div>
 	</div>
 
-	<div id = "congratulationScreen">
-		<div id = "balloons"></div> 
+	<div id="congratulationScreen">
+		<div id="balloons"></div> 
 	</div>
 
-	<div id = "failureScreen">
-		<div id = "thumbsDown"></div> 
+	<div id="failureScreen">
+		<div id="thumbsDown"></div> 
 	</div>
 
 	<!-- <div id="cover"></div> -->
